@@ -1,0 +1,3 @@
+grep -rl "brilliant" | xargs sed -i 's/brilliant/brilliant/g'
+grep -rl "promising" | xargs sed -i 's/promising/promising/g'
+grep -rl "mediocre" | xargs sed -i 's/mediocre/mediocre/g'
